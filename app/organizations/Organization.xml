@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="User1">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User2">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User3">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User4">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User5">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User6">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Sales Agent">
+      <displayName>Sales Agent</displayName>
+    </role>
+    <role name="KYC Analyst">
+      <displayName>KYC Analyst</displayName>
+    </role>
+    <role name="HeadOfSales">
+      <displayName>Head of Sales</displayName>
+    </role>
+    <role name="AccountManager">
+      <displayName>Account Manager</displayName>
+    </role>
+    <role name="OperationsStaff">
+      <displayName>Operations Staff</displayName>
+    </role>
+    <role name="KYCRiskCommittee">
+      <displayName>KYC Risk Committee</displayName>
+    </role>
+    <role name="HeadOfOperations">
+      <displayName>Head Of Operations</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Group1">
+      <displayName>Sales</displayName>
+    </group>
+    <group name="Group2">
+      <displayName>KYC</displayName>
+    </group>
+    <group name="Group3">
+      <displayName>Account Management</displayName>
+    </group>
+    <group name="Group4">
+      <displayName>Operations</displayName>
+    </group>
+    <group name="Group5">
+      <displayName>Management</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>User1</userName>
+      <roleName>Sales Agent</roleName>
+      <groupName>Group1</groupName>
+    </membership>
+    <membership>
+      <userName>User2</userName>
+      <roleName>Sales Agent</roleName>
+      <groupName>Group1</groupName>
+    </membership>
+    <membership>
+      <userName>User3</userName>
+      <roleName>Sales Agent</roleName>
+      <groupName>Group1</groupName>
+    </membership>
+    <membership>
+      <userName>User4</userName>
+      <roleName>Sales Agent</roleName>
+      <groupName>Group1</groupName>
+    </membership>
+    <membership>
+      <userName>User5</userName>
+      <roleName>Sales Agent</roleName>
+      <groupName>Group1</groupName>
+    </membership>
+    <membership>
+      <userName>User6</userName>
+      <roleName>Sales Agent</roleName>
+      <groupName>Group1</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

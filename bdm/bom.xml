@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.BusinessObject">
+            <fields>
+                <field type="STRING" length="255" name="account_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="client_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="hin" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="paymentMethod" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="currentCashBalance" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="assetTransferRequired" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ClientApplication">
+            <fields>
+                <field type="STRING" length="255" name="client_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="clientName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="contactDetails" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="emailAddress" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="currentWealth" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="registrationSource" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="registrationDate" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.KYCDetails">
+            <fields>
+                <field type="STRING" length="255" name="kyc_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="client_id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="riskCategory" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="kycApproved" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isPoliticallyImportant" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="wealthSource" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="dailyTransactionLimit" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="proofOfIdentity" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
